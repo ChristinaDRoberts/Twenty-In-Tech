@@ -51,6 +51,22 @@ class HeroHeader extends Component {
                         <span className="letter" data-letter="C">C</span>
                         <span className="letter" data-letter="H">H</span>
                     </div>
+
+                    <div className="sub-head">
+                        {/*<h3 className="txtanim1 delay1" >*/}
+                            {/*<span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">A</span>*/}
+                            {/*<span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">L</span>*/}
+                            {/*<span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">O</span>*/}
+                            {/*<span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">O</span>*/}
+                            {/*<span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">k</span>*/}
+                            {/*<span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">I</span>*/}
+                            {/*<span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">N</span>*/}
+                            {/*<span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">S</span>*/}
+                            {/*<span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">I</span>*/}
+                            {/*<span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">D</span>*/}
+                            {/*<span style="display: inline-block; transform: translate3d(0px, 0%, 0px); transition: all 0.3s ease 0.1s;">E</span>*/}
+                        {/*</h3>*/}
+                    </div>
              </div>
 
         {/*end of codepen*/

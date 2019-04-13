@@ -40,11 +40,11 @@ class CardListContainer extends Component {
             return (
                 <li key={card.id}>
                 <Card style={{width: '18rem'}} className="card-main">
-                <Card.Img variant="top" className="card-image" src={card.img}/>
+                <Card.Img variant="top" className="card-image" src={card.picture}/>
                 <Card.Body>
-                    <Card.Title>Name of Subject {card.id} </Card.Title>
+                    <Card.Title> {card.subjectName} </Card.Title>
                     <Card.Text>
-                        A short synopse of interview. Grab attention here
+                        {card.tagline}
                     </Card.Text>
                     <Button variant="secondary" className="btn-secondary interv-button">Read The Interview</Button>
                 </Card.Body>

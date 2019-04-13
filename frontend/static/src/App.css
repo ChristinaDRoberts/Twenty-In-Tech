@@ -29,6 +29,15 @@
   text-align: center;
 }
 
+ul{
+  list-style: none;
+}
+
+li{
+  display: inline-block;
+  margin: 5%;
+}
+
 @media screen and (max-width: 900px) {
   .TinT {
       font-size: 40%;
