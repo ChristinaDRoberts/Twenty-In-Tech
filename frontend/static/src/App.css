@@ -2,7 +2,49 @@
 .App{
   background-color: lightgray;
 }
+
+.card-image{
+  height: 200px;
+  width: 250px;
+  margin-top: 5%;
+}
+ .card-main{
+   border: 1px solid black;
+   margin-left: 5%;
+   text-align: center;
+   background-color: white;
+ }
+
+
+.interv-button{
+  margin-bottom: 5%;
+}
+
+.Fluid{
+  width: 100%;
+
+}
+.TinT{
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .TinT {
+      font-size: 40%;
+      /*margin: 6%;*/
+      /*width:150%;*/
+
+  }
+}
+
+.head{
+  display: inline-block;
+  text-align: center;
+
+}
+
 /*SEE  https://codepen.io/diegopardo/pen/GqEho*/
+/*Lettering was used from the codepen link above*/
 @import url(https://fonts.googleapis.com/css?family=Lato:900);
 *, *:before, *:after{
   box-sizing:border-box;
@@ -18,10 +60,11 @@ div.foo{
 .letter{
   display: inline-block;
   font-weight: 900;
-  font-size: 8em;
+  font-size: 7em;
   margin: 0.2em;
   position: relative;
-  color: #726491;
+  /*color: #726491;*/
+
   transform-style: preserve-3d;
   perspective: 400;
   z-index: 1;
@@ -73,4 +116,4 @@ div.foo{
     skew(0deg,22deg);
 }
 
-
+/*******************/

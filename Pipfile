@@ -13,7 +13,7 @@ gunicorn = "*"
 django-storages = "*"
 django-rest-framework = "*"
 npm = "*"
-
+pillow = "*"
 
 [requires]
 python_version = "3.7"

@@ -1,3 +1,12 @@
 from django.db import models
 
-# Create your models here.
+
+
+class Interview(models.Model):
+    picture = models.ImageField(null=True)
+    subjectName = models.CharField(max_length=255, null=True)
+    title = models.CharField(max_length=255, null=True)
+    body = models.TextField(null=True)
+    tagline = models.CharField(max_length=255, null=True)
+    writtenBy = models.CharField(max_length=255, default="Christina Roberts")
+
