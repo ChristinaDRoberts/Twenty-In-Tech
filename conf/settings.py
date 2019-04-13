@@ -29,7 +29,7 @@ STATICFILES_FINDERS = [
 
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'series/static/build/static'),
+    os.path.join(BASE_DIR, 'frontends/static/build/static'),
 )
 
 # UPLOAD FILE CONFIG
@@ -44,7 +44,7 @@ AWS_DEFAULT_ACL =None  # DEFAULT WILL BE TO LOCKDOWN EVERYTHING
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
-REACT_APP_DIR = 'series/static'
+REACT_APP_DIR = 'frontend/static'
 # SECURITY WARNING: keep the secret key used in production secret!
 
 
@@ -165,6 +165,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'series/static/media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'frontend/static/media')
 
 MEDIA_URL = '/media/'
