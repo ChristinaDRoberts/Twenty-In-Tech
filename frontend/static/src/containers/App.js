@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import IndivCardContainer from './indivCards.js'
+
+import CardListContainer from './indivCards'
 import {Container} from 'react-bootstrap';
 
 import '../App.css';
@@ -10,8 +11,9 @@ class App extends Component {
 
             <div className="App">
                 <HeroHeader/>
+                <CardListContainer/>
 
-                <IndivCardContainer/>
+
             </div>
 
         );
