@@ -28,9 +28,9 @@ STATICFILES_FINDERS = [
 ]
 
 # Extra places for collectstatic to find static files.
-# STATICFILES_DIRS = (
-#     os.path.join(BASE_DIR, 'frontend/static/build/static'),
-# )
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'frontend/static/build/static'),
+)
 
 # UPLOAD FILE CONFIG
 # SEE : https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html
