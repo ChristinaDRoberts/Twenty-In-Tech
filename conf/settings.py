@@ -32,8 +32,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'frontend/static/build/static'),
 )
 
-cwd = os.getcwd() 
-if cwd == '/app' or cwd[:4] == '/tmp':
+
 # UPLOAD FILE CONFIG
 # SEE : https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html
 
