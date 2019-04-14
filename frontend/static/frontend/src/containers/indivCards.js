@@ -63,24 +63,24 @@ class CardListContainer extends Component {
 export default CardListContainer
 
 
-class IndivCardContainer extends Component {
-        constructor(props){
-            super(props);
-        }
-
-    render() {
-
-        return (
-            <div>
-
-                {/*<ul>{interview}</ul>*/}
-                hello
-
-            </div>
-    )
-        ;
-    }
-}
-
+// class IndivCardContainer extends Component {
+//         constructor(props){
+//             super(props);
+//         }
+//
+//     render() {
+//
+//         return (
+//             <div>
+//
+//                 {/*<ul>{interview}</ul>*/}
+//                 hello
+//
+//             </div>
+//     )
+//         ;
+//     }
+// }
+//
 
 

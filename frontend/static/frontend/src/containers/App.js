@@ -8,13 +8,14 @@ import '../App.css';
 class App extends Component {
     render() {
         return (
-
+        <Container>
             <div className="App">
                 <HeroHeader/>
                 <CardListContainer/>
 
 
             </div>
+        </Container>
 
         );
     }
