@@ -57,7 +57,7 @@ SECRET_KEY = '$adqg)hv+77*^&fg+huox@e0_w3-jc_qc8_g%gm-8#+esynotz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['interview27.herokuapp.com','localhost']
 
 
 # Application definition
@@ -72,7 +72,8 @@ INSTALLED_APPS = [
     'storages',
     'interview',
     'frontend',
-    'rest_framework'
+    'rest_framework',
+    'api'
 ]
 
 MIDDLEWARE = [
