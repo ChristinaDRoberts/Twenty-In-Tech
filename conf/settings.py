@@ -21,7 +21,7 @@ STATIC_URL = '/static/'
 
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#static-root
-STATIC_ROOT = os.path.normpath(os.path.join(BASE_DIR, 'staticfiles'))
+STATIC_ROOT = os.path.normpath(os.path.join(BASE_DIR, 'staticfiles/frontend'))
 
 # See: https://docs.djangoproject.com/en/dev/ref/contrib/staticfiles/#staticfiles-finders
 STATICFILES_FINDERS = [
@@ -47,7 +47,7 @@ AWS_DEFAULT_ACL =None  # DEFAULT WILL BE TO LOCKDOWN EVERYTHING
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
-REACT_APP_DIR = 'frontend/static'
+REACT_APP_DIR = 'frontend/static/frontend'
 # SECURITY WARNING: keep the secret key used in production secret!
 
 
