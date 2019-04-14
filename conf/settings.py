@@ -32,6 +32,8 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'frontend/static/build/static'),
 )
 
+cwd = os.getcwd() 
+if cwd == '/app' or cwd[:4] == '/tmp':
 # UPLOAD FILE CONFIG
 # SEE : https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html
 
@@ -57,7 +59,7 @@ SECRET_KEY = '$adqg)hv+77*^&fg+huox@e0_w3-jc_qc8_g%gm-8#+esynotz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['interview27.herokuapp.com','localhost']
+ALLOWED_HOSTS = ['interview27.herokuapp.com', 'localhost']
 
 
 # Application definition
