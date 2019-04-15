@@ -15,6 +15,6 @@ class SignUp(generic.CreateView):
    success_url = reverse_lazy('accounts:login')
    template_name = 'registration/signup.html'
 
-class EnterInfoView(TemplateView):
-    # success_url = reverse_lazy('accounts:enterInfo.html')
-    template_name = "registration/enterInfo.html"
+# class EnterInfoView(TemplateView):
+#     # success_url = reverse_lazy('accounts:enterInfo.html')
+#     template_name = "registration/enterInfo.html"
