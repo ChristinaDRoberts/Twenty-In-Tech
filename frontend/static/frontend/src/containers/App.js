@@ -27,6 +27,7 @@ class App extends Component {
 
                 path = /interview/.exec(pathname);
                                 if(path){
+
                                     return <CardListContainer/>;
                                 }
 

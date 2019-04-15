@@ -5,6 +5,7 @@ app_name='frontend'
 
 urlpatterns = [
 
+    # path('', IndexView.as_view(), name='index'),
     path('interview/', IndexView.as_view(), name='index'),
     path('enterInfo/', EnterInfoView.as_view(), name='enterInfo')
 
