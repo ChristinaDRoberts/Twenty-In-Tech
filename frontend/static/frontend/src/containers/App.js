@@ -4,27 +4,32 @@ import CardListContainer from './indivCards'
 import {Container} from 'react-bootstrap';
 
 import '../App.css';
+const $ = window.$;
 
 class App extends Component {
     constructor(props){
         super(props);
-        this.state = {
-            currentScreen : "enterInfo"
-        }
+
     }
     render() {
+        //uses url pathname to determine which react page will show, check on mixin though
+         var pathname = window.location.pathname;
+        console.log(pathname);
         return (
         <Container>
              <div className="App">
             <HeroHeader/>
             {(() => {
-                                switch (this.state.currentScreen) {
-                                    case 'enterInfo':
-                                        return <AdminViewContainer/>;
-                                    default:
-                                       return  <CardListContainer/>;
+                let path = /enterInfo/.exec(pathname);
+                if(path){
+                    return <AdminViewContainer />;
+                    }
 
+                path = /interview/.exec(pathname);
+                                if(path){
+                                    return <CardListContainer/>;
                                 }
+
                                       })()}
 
                 </div>
