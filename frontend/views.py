@@ -4,6 +4,8 @@ import os
 from django.views.generic import View
 from django.http import HttpResponse
 from django.conf import settings
+from django.contrib.auth.mixins import LoginRequiredMixin
+
 
 
 
@@ -27,3 +29,8 @@ class IndexView(View):
                 """,
                 status=501,
             )
+
+
+class EnterInfoView(LoginRequiredMixin, IndexView):
+    pass
+

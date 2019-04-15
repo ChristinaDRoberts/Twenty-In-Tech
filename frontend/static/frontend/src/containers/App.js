@@ -1,20 +1,33 @@
 import React, {Component} from 'react';
-
+import AdminViewContainer from './adminView'
 import CardListContainer from './indivCards'
 import {Container} from 'react-bootstrap';
 
 import '../App.css';
 
 class App extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            currentScreen : "enterInfo"
+        }
+    }
     render() {
         return (
         <Container>
-            <div className="App">
-                <HeroHeader/>
-                <CardListContainer/>
+             <div className="App">
+            <HeroHeader/>
+            {(() => {
+                                switch (this.state.currentScreen) {
+                                    case 'enterInfo':
+                                        return <AdminViewContainer/>;
+                                    default:
+                                       return  <CardListContainer/>;
 
+                                }
+                                      })()}
 
-            </div>
+                </div>
         </Container>
 
         );
