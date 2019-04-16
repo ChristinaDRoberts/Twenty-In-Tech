@@ -1,5 +1,6 @@
 .env
 .DS_Store
 .idea/
-
+/node_modules
 frontend/static/frontend/build/node_modules
+
